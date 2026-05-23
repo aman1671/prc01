@@ -1,0 +1,22 @@
+<div class="container mt-5">
+    <h2>Subject Master</h2>
+    
+      <div class="form-group">
+        <label for="id">ID</label>
+        <input type="text" id="id" class="form-control" [(ngModel)] = "subject.id">
+      </div>
+  
+      <div class="form-group">
+        <label for="subjectName">Subject Name</label>
+        <input type="text" id="subjectName" class="form-control" [(ngModel)] = "subject.subjectName">
+      </div>
+  
+      <div class="form-group">
+        <label for="passingMarks">Passing Marks</label>
+        <input type="number" id="passingMarks" class="form-control"[(ngModel)] = "subject.passingMarks" >
+      </div>
+  
+      <button type="submit" class="btn btn-primary" (click)="addSubject()">Submit</button>
+    
+  </div>
+  

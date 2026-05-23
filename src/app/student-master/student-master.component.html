@@ -1,0 +1,23 @@
+<h2>Student Master</h2>
+  <div>
+    <label for="id">ID</label>
+    <input type="number" id="id" name="id" [(ngModel)]="student.id" required>
+  </div>
+  <div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" [(ngModel)]="student.name" required>
+  </div>
+  <div>
+    <label for="class">Student Class</label>
+    <input type="number" id="class" name="class" [(ngModel)]="student.studentClass" required>
+  </div>
+  <div>
+    <label for="section">Section</label>
+    <input type="text" id="section" name="section" [(ngModel)]="student.section" required>
+  </div>
+  <div>
+    <label for="rollNumber">Roll Number</label>
+    <input type="number" id="rollNumber" name="rollNumber" [(ngModel)]="student.rollNumber" required>
+  </div>
+  <button type="submit" (click)="addStudent()">Save Student</button>
+

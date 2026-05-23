@@ -1,0 +1,82 @@
+/* Container styling */
+.container {
+    max-width: 600px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Form heading styling */
+h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 24px; /* Font size for the heading */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+/* Label styling */
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below the label */
+    font-weight: bold; /* Bold text for labels */
+    color: #555; /* Medium dark text color */
+}
+
+/* Input field styling */
+input[type="number"],
+input[type="text"] {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside the input fields */
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+    font-size: 16px; /* Font size for input text */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Focus effect on input */
+input[type="number"]:focus,
+input[type="text"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow on focus */
+}
+
+/* Button styling */
+button {
+    width: 100%; /* Full width for the button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #007bff; /* Primary blue color */
+    color: white; /* White text color */
+    font-size: 16px; /* Font size for button text */
+    border: none; /* No border for button */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    h2 {
+        font-size: 22px; /* Smaller font size for heading */
+    }
+
+    button {
+        font-size: 14px; /* Smaller font size for button */
+    }
+}

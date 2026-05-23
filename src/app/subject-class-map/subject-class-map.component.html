@@ -1,0 +1,20 @@
+<div class="container mt-5">
+    <h2>Subject Class Map</h2>
+      <div class="form-group">
+        <label for="id">ID:</label>
+        <input id="id"  class="form-control" [(ngModel)]="subjectClassMap.id" >
+      </div>
+      
+      <div class="form-group">
+        <label for="subjectId">Subject ID:</label>
+        <input id="subjectId"  class="form-control" [(ngModel)]="subjectClassMap.subjectId" >
+      </div>
+      
+      <div class="form-group">
+        <label for="class">Subject Class:</label>
+        <input id="class"  class="form-control" [(ngModel)]="subjectClassMap.subjectClass" >
+      </div>
+      
+      <button type="submit" class="btn btn-primary" (click)="addsubjectClassMap()">Submit</button>
+  </div>
+  

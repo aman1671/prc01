@@ -1,0 +1,57 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Navigation bar styling */
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Navigation links */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+}
+
+/* Active link style */
+nav a.active {
+    background-color: #0056b3;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+}

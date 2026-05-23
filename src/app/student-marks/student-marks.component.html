@@ -1,0 +1,31 @@
+<div class="container">
+    <h2>Student Marks</h2>
+      <div class="form-group">
+        <label for="id">ID:</label>
+        <input id="id"  class="form-control" [(ngModel)]="studentMarks.id" />
+      </div>
+      
+      <div class="form-group">
+        <label for="session">Session:</label>
+        <input id="session" class="form-control" [(ngModel)]="studentMarks.session"  />
+      </div>
+      
+      <div class="form-group">
+        <label for="subjectId">Subject ID:</label>
+        <input id="subjectId"  class="form-control" [(ngModel)]="studentMarks.subjectId"  />
+      </div>
+      
+      <div class="form-group">
+        <label for="studentId">Student ID:</label>
+        <input id="studentId"  class="form-control" [(ngModel)]="studentMarks.studentId" />
+      </div>
+      
+      <div class="form-group">
+        <label for="marksObtained">Marks Obtained:</label>
+        <input id="marksObtained" class="form-control" [(ngModel)]="studentMarks.marksObtained" />
+      </div>
+      
+      <button type="submit" class="btn btn-primary" (click)="addStudentMarks()">Submit</button>
+    
+  </div>
+  
